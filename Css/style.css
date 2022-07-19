@@ -71,7 +71,7 @@ h3 {
   font-weight: 500; }
 
 body {
-  background-image: url(../img/bgimg.jpg);
+  background-image: url(../img/bgimg.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
@@ -129,7 +129,7 @@ html {
 #footer {
   grid-area: footer; }
 
-@media (min-width: 370px) {
+@media (min-width: 280px) {
   .contenedor {
     grid-template-columns: 1fr;
     grid-template-rows: auto;

@@ -1,0 +1,37 @@
+/* box model*/
+
+.formas__contacto{
+    width: 95%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px 5px;
+    border: double 0.5rem navy;
+}
+
+.whats__contacto{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 5px 0;
+}
+
+.img__principal--fluid{
+    width: 100%;
+
+}
+
+.img__principal--medium{
+    width: 90%;
+    margin-left: 6%;
+}
+
+.img__productos--md{
+    width: 300px;
+}
+
+.img__logo--sm{
+    width: 10%;
+}
+
+.img__aside--sm{
+    width: auto;
+}

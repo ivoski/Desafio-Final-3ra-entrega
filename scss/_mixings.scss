@@ -1,0 +1,58 @@
+// extend
+
+.btn-ex{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(90deg, #ffd230 27%, #ff4300 69%, #ff4b00 71%);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    &:hover{
+        background-color: #ff4b00;
+        color: #ffd230;
+    }
+}
+
+.btn-rounded{
+    @extend .btn-ex;
+    border-radius: 3px;
+}
+
+
+
+//  mixings 
+
+@mixin texto($size, $interlineado, $color) {
+    font-family: $mainFont;
+    font-size: $size;
+    line-height: $interlineado;
+    color: $color;
+    padding: 3px;
+}
+
+h4{
+    @include texto(2rem,1.8rem ,$mainColor)
+}
+
+
+//maps
+
+$colores:(
+    "uno": #FFA420,
+    "dos": #FF7514,
+    "tres":#f7af13,
+    "cuatro": #D7D7D7,
+    "cinco": #E4A010,
+    "seis": #EC7C26,
+    "siete": #F3DA0B,
+);
+
+.textCla {
+    color: map-get($map:$colores, $key:"tres" );
+}
+
+.bgOrange {
+    background-color: map-get($map: $colores, $key:"seis" );
+}

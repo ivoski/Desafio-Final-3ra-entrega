@@ -1,0 +1,72 @@
+.btnMed{
+    width: 60%;
+    height: 30px;
+    background-color: $secondaryColor;
+    color: $mainColor;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    font-size: $textMd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnBurger{
+    color:$black;
+    background-color: $mainColor;
+}
+
+
+#productos .galeria{
+    font-family: $mainFont;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+    #productos .galeria figure{
+        text-align: center;
+    }
+
+        #productos .galeria figure img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+            #productos .galeria figure figcaption{
+                font-size: $textXl;
+                color: $white;
+                background-color: $black;
+            }
+
+                #productos .galeria p.price{
+                    color: $white;
+                    background-color: $black;
+                }
+
+
+#promo .destacado article{
+    background-color: $mainColor;
+    display: flex;
+    margin-top: 5px;
+}
+
+    #promo .destacado article p{
+        font-size: $textLg;
+        line-height: 2.3rem;
+        padding: 50px;
+        margin: 20px auto;
+        color: $white;
+    }
+
+.selectbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:$mainFont ;
+    background-color: $mainColor;
+}
